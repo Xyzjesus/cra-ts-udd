@@ -1,5 +1,12 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  padding: 0 5rem;
+  justify-content: flex-start;
+  background-image: url("/src/assets/udd_bg.png");
+  background-color: #161415;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
 }
 
 .main {
@@ -9,13 +16,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-
-.connect {
-  font-size: 36px;
-  margin-bottom: 2rem;
-  width: 230px;
-  align-self: flex-end;
 }
 
 @media (max-width: 600px) {

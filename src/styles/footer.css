@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 1600px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left img {
+  margin-right: 10px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-right span {
+  font-size: 22px;
+}

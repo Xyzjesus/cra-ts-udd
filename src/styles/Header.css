@@ -1,0 +1,44 @@
+.connect {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.header {
+  justify-content: space-between;
+  width: 1600px;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Marvel", sans-serif;
+  align-items: center;
+}
+
+.logo {
+  width: 207px;
+  height: 77px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.link {
+  padding: 0 40px;
+}
+
+.menu {
+  padding: 0px 225px;
+  width: 100%;
+}
+
+.connectwallet {
+  font-size: 22px;
+  font-family: "Marvel", sans-serif;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  width: 214px;
+}

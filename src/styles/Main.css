@@ -1,0 +1,23 @@
+.maindialog {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 1400px;
+}
+
+.dialog1-text {
+  width: 290px;
+  font-family: "Creepster";
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.dialog1-img {
+  position: absolute;
+}
+
+.nav {
+  display: flex;
+}
