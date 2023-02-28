@@ -5,12 +5,15 @@ import udd_logo from "./assets/udd_logo.png";
 
 export default function Header() {
   return (
-    <header className="header">
-      <div className="nav">
+    <header className="header fixed">
+      
         <NavLink to="/" className="home">
-          <img src={udd_logo} alt="udd_logo" className="logo"></img>
+          <div className="logo">
+          <img src={udd_logo} alt="udd_logo" width="207" height="77"></img>
+          </div>
         </NavLink>
-        <div className="menu">
+        <nav className="nav">
+          <ul>
           <NavLink to="/faq" className="link">
             FAQ
           </NavLink>
@@ -23,10 +26,10 @@ export default function Header() {
           <NavLink to="/leaderboard" className="link">
             LEADERBOARD
           </NavLink>
-        </div>
-      </div>
-      <div className="connect">
-        <ConnectWallet className="connectwallet" />
+          </ul>
+        </nav>
+      <div className="connectWallet">
+        <ConnectWallet className="connectButton" />
       </div>
     </header>
   );

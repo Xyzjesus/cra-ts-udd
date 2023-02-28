@@ -1,16 +1,17 @@
-.connect {
-  font-size: 22px;
-  text-transform: uppercase;
-}
-
 .header {
   justify-content: space-between;
-  width: 1600px;
   height: 77px;
   display: flex;
   flex-direction: row;
   font-family: "Marvel", sans-serif;
   align-items: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
@@ -19,26 +20,35 @@
 }
 
 .nav {
+  flex:1;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 22px;
 }
 
-.link {
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav .link {
   padding: 0 40px;
 }
 
-.menu {
-  padding: 0px 225px;
-  width: 100%;
-}
-
-.connectwallet {
+.connectButton {
   font-size: 22px;
   font-family: "Marvel", sans-serif;
   text-transform: uppercase;
   border-radius: 20px;
-  border: 2px solid #ffffff;
+  border: 1px solid black;
   width: 214px;
+  height: 45px;
+}
+
+.connectWallet {
+  font-size: 22px;
+  text-transform: uppercase;
 }

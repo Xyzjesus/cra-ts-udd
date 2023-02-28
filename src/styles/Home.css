@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  padding: 0 5rem;
+  padding: 0 1rem;
   justify-content: flex-start;
   background-image: url("/src/assets/udd_bg.png");
   background-color: #161415;
@@ -10,12 +10,12 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 1rem 4rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
