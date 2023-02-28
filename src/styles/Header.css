@@ -5,6 +5,7 @@
   flex-direction: row;
   font-family: "Marvel", sans-serif;
   align-items: center;
+  z-index: 100;
 }
 
 .fixed {
@@ -20,6 +21,7 @@
 }
 
 .nav {
+  position: relative;
   flex:1;
   display: flex;
   justify-content: center;

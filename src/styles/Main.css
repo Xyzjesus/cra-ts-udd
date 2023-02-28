@@ -1,5 +1,6 @@
 .maindialog {
   position: relative;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -7,18 +8,29 @@
   width: 800px;
 }
 
-.dialog1-text {
+.dialog1_text {
+  display: flex;
   width: 290px;
   font-family: "Creepster";
   font-size: 30px;
   line-height: 30px;
   text-align: center;
+  margin: 250px 0px 0px 550px;
 }
 
 .dialog1-img {
+  display: flex;
   position: absolute;
+  top: 200px;
+  right: -80px;
+
 }
 
-.nav {
-  display: flex;
+.nav2 {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.nav2.hidden {
+  opacity: 0;
 }

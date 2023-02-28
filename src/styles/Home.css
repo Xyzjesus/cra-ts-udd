@@ -1,21 +1,24 @@
 .container {
   display: flex;
-  padding: 0 1rem;
   justify-content: flex-start;
-  background-image: url("/src/assets/udd_bg.png");
-  background-color: #161415;
-  background-attachment: fixed;
-  background-position: center;
   position: relative;
 }
 
 .main {
-  padding: 1rem 1rem;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+}
+
+.image {
+  position: fixed;
+  display: flex;
+  z-index: 0;
+  top: -850px;
+  right: -700px;
 }
 
 @media (max-width: 600px) {
