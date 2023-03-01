@@ -1,9 +1,9 @@
 {
-  "short_name": "react-typescript-starter",
-  "name": "thirdweb starter project with React & TypeScript",
+  "short_name": "UDD",
+  "name": "USELESS DEAD DUDES",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "udd_logo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },

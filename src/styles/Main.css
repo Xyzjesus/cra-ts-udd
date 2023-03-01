@@ -1,5 +1,4 @@
 .maindialog {
-  position: relative;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -8,29 +7,99 @@
   width: 800px;
 }
 
-.dialog1_text {
+.dialog1 {
   display: flex;
   width: 290px;
+  margin: 250px 0px 0px 550px;
+}
+
+.text {
   font-family: "Creepster";
   font-size: 30px;
   line-height: 30px;
   text-align: center;
-  margin: 250px 0px 0px 550px;
+  z-index: 20;
+}
+
+.dialog2 {
+  display: flex;
+  width: 250px;
+  margin: 80px 650px 0px 0px;
+}
+
+.dialog3 {
+  display: flex;
+  width: 250px;
+  margin: 390px 650px 0px 0px;
+}
+
+.dialog4 {
+  display: flex;
+  width: 200px;
+  margin: 180px 0px 0px 600px;
 }
 
 .dialog1-img {
   display: flex;
   position: absolute;
   top: 200px;
-  right: -80px;
-
+  right: -60px;
 }
 
-.nav2 {
+.dialog2-img {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: -20px;
+}
+
+.dialog3-img {
+  display: flex;
+  position: absolute;
+  top: 320px;
+  left: -20px;
+}
+
+.dialog4-img {
+  display: flex;
+  position: absolute;
+  top: 130px;
+  right: -50px;
+}
+
+.img {
+background: linear-gradient(106.59deg, rgba(0, 0, 0, 0.0125) 14.1%, rgba(0, 0, 0, 0.0025) 110.58%);
+z-index: 1;
+}
+
+.scrollpic {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  right: 10px;
+  top: 480px;
+  animation: scrollAnimation 2s infinite;
+}
+
+.hided_nav {
+  position: relative;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+  z-index: 15;
 }
 
-.nav2.hidden {
-  opacity: 0;
+.hided_nav.show {
+  opacity: 1;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
