@@ -26,52 +26,56 @@ export default function Main() {
   return (
     <>
     <div className="maindialog">
-      
-      <div className="hided_nav">
-        <img src={dialog1} alt="dialog1" className="dialog1-img img"></img>
-        <p className="dialog1 text">HEY USELESS! IF U HAVE USELESS KEY ALREADY, JUST GO TO 'CLOSE THE DOOR' PAGE!</p>
+      <div className="display_1">
+        <div className="part1 section_1 hided_nav">
+          <img src={dialog1} alt="dialog1"></img>
+          <p className="dialog1 text">HEY USELESS! IF U HAVE USELESS KEY ALREADY, JUST GO TO 'CLOSE THE DOOR' PAGE!</p>
+        </div>
+        <div className="part2 section_1 hided_nav">
+          <img src={dialog2} alt="dialog2"></img>
+          <p className="dialog1 text">IF U DIDN'T GET IT, SCROLL DOWN...</p>
+        </div>
       </div>
-      <div className="hided_nav">
-        <img src={dialog2} alt="dialog2" className="dialog2-img img"></img>
-        <p className="dialog2 text">IF U DIDN'T GET IT, SCROLL DOWN...</p>
+      <div className="display_2">
+        <div className="part3 section_2 hided_nav">
+          <img src={dialog3} alt="dialog3"></img>
+          <p className="dialog1 text">I AM NEWBIE! WTF IS GOING ON?</p>
+        </div>
+        <div className="part4 section_2 hided_nav">
+          <img src={dialog2} alt="dialog4"></img>
+          <p className="dialog1 text">HERE U CAN MINT OUR USELESS KEY...</p>
+        </div>
       </div>
-
-      <div className="hided_nav">
-        <img src={dialog3} alt="dialog3" className="dialog3-img img"></img>
-        <p className="dialog3 text">I AM NEWBIE! WTF IS GOING ON?</p>
+      <div className="display_3">
+        <div className="part3 section_3 hided_nav">
+          <img src={dialog3} alt="dialog3"></img>
+          <p className="dialog1 text">WHAT'S THE USELESS KEY?</p>
+        </div>
+        <div className="part4 section_3 hided_nav">
+          <img src={dialog2} alt="dialog4"></img>
+          <p className="dialog1 text">THIS IS OUR WELCOME NFT CREATED FOR A MINI GAME...</p>
+        </div>
       </div>
-      <div className="hided_nav">
-        <img src={dialog2} alt="dialog4" className="dialog4-img img"></img>
-        <p className="dialog4 text">HERE U CAN MINT OUR USELESS KEY...</p>
+      <div className="display_4">
+        <div className="part3 section_4 hided_nav">
+          <img src={dialog3} alt="dialog3"></img>
+          <p className="dialog1 text">WHAT'S THE GAME?</p>
+        </div>
+        <div className="part4 section_4 hided_nav">
+          <img src={dialog2} alt="dialog4"></img>
+          <p className="dialog1 text">IT'S INTERACRIVE, WHERE U NEED GET POINT BY CLOSING THE DOOR...</p>
+        </div>
       </div>
-
-      <div className="hided_nav">
-        <img src={dialog3} alt="dialog3" className="dialog3-img img"></img>
-        <p className="dialog3 text">WHAT'S THE USELESS KEY?</p>
+      <div className="display_5">
+        <div className="part3 section_5 hided_nav">
+          <img src={dialog3} alt="dialog3"></img>
+          <p className="dialog1 text">WHAT'S REASON?</p>
+        </div>
+        <div className="part4 section_5 hided_nav">
+          <img src={dialog2} alt="dialog4"></img>
+          <p className="dialog1 text">MORE POINTS - MORE CHANCES TO GAIN WL FOR MAIN COLLECTION...</p>
+        </div>
       </div>
-      <div className="hided_nav">
-        <img src={dialog2} alt="dialog4" className="dialog4-img img"></img>
-        <p className="dialog4 text">THIS IS OUR WELCOME NFT CREATED FOR A MINI GAME...</p>
-      </div>
-
-      <div className="hided_nav">
-        <img src={dialog3} alt="dialog3" className="dialog3-img img"></img>
-        <p className="dialog3 text">WHAT'S THE GAME?</p>
-      </div>
-      <div className="hided_nav">
-        <img src={dialog2} alt="dialog4" className="dialog4-img img"></img>
-        <p className="dialog4 text">IT'S INTERACRIVE, WHERE U NEED GET POINT BY CLOSING THE DOOR...</p>
-      </div>
-
-      <div className="hided_nav">
-        <img src={dialog3} alt="dialog3" className="dialog3-img img"></img>
-        <p className="dialog3 text">WHAT'S REASON?</p>
-      </div>
-      <div className="hided_nav">
-        <img src={dialog2} alt="dialog4" className="dialog4-img img"></img>
-        <p className="dialog4 text">MORE POINTS - MORE CHANCES TO GAIN WL FOR MAIN COLLECTION...</p>
-      </div>
-      
     </div>
     
     <div className="scrollpic">

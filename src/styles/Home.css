@@ -15,10 +15,11 @@
 
 .image {
   position: fixed;
+  top: -830px;
+  justify-content: center;
+  align-items: center;
   display: flex;
   z-index: 0;
-  top: -850px;
-  right: -700px;
 }
 
 @media (max-width: 600px) {

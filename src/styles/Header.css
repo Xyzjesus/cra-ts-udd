@@ -6,12 +6,12 @@
   font-family: "Marvel", sans-serif;
   align-items: center;
   z-index: 100;
+  max-width: 1600px;
 }
 
 .fixed {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
 }
 
